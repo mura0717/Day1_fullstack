@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FIFA World Cup 2022 Players</title>
+</head>
+<body>
+<h1>FIFA World Cup 2022 Players</h1>
+<ul>
+    <li th:each="player : ${players}">
+        <span th:text="${player}"></span>
+    </li>
+</ul>
+</body>
+</html>
